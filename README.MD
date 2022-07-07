@@ -1,4 +1,4 @@
-<h1> <img src="https://github.com/ShenggKai/ShenggKai/blob/master/catsayhi.gif" width="70">, I'm Sheng Kai! <img src="https://github.com/ShenggKai/ShenggKai/blob/master/ezgif.com-gif-maker%20(2).gif" width="60"></h1> 
+<h1> <img src="img/box3.png" width="25"> Đồ Án Cuối Kỳ - Đồ Họa Máy Tính CS105.M21.KHCL</h1> 
 ---
 
 ## I. Các bước để chạy source code
