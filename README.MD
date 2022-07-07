@@ -15,10 +15,10 @@
 ## Cách 2:
     Vào trực tiếp link: https://shenggkai.github.io/Final-Project-CS105/
 
-
+---
 # II. Video demo
     Link: 
-
+---
 # III. Danh sách thành viên nhóm
     1. 19520271 - Hồ Bảo Quốc Thắng
     2. 19521338 - Nguyễn Quốc Đạt
