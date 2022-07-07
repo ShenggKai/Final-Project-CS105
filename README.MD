@@ -4,8 +4,7 @@
 ## I. Các bước để chạy source code
 
 ### Cách 1:
-    1. Cài đặt Visual Studio Code
-   Link: https://code.visualstudio.com/download
+    1. Cài đặt [Visual Studio Code](https://code.visualstudio.com/download)
 
     2. Cài đặt Live Sever extension
    Link: https://ritwickdey.github.io/vscode-live-server/
