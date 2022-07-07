@@ -7,7 +7,7 @@ import Stats from './lib/stats.module.js'
 import { TGALoader } from './lib/TGALoader.js';
 import { TeapotGeometry } from './lib/TeapotGeometry.js';
 
-// globale variables
+// global variables
 let camera, scene, renderer
 let floor, geometry, material, mesh, floorMesh, light, axes
 let gui
@@ -30,7 +30,7 @@ let settings = {
     geometry: {
         scale: 1,
         shape: 'cube',
-        material: 'basic',
+        material: 'phong',
         Points: false,
         wireframe: false,
         color: 0x7a6c6c,
@@ -41,9 +41,10 @@ let settings = {
         shadow: true,
         intensity: 4,
         color: 0xffffff,
+        posX: -2,
         posY: 2,
-        posZ: 0,
-        posX: 0,
+        posZ: -2,
+        
     },
     affine: {
         mode: 'none',
@@ -52,7 +53,7 @@ let settings = {
         fov: 75,
         near: 0.1,
         far: 100,
-        posX: 1,
+        posX: -2,
         posY: 2,
         posZ: 4,
         lookX: 0,
@@ -107,7 +108,7 @@ function init() {
 
     // object
     geometry = new THREE.BoxBufferGeometry(1, 1, 1)
-    material = new THREE.MeshBasicMaterial({ color: settings.geometry.color, side: THREE.DoubleSide })
+    material = new THREE.MeshPhongMaterial({ color: settings.geometry.color, side: THREE.DoubleSide })
     mesh = new THREE.Mesh(geometry, material)
     mesh.position.set(0, 0.5, 0)
     mesh.castShadow = true
