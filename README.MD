@@ -1,6 +1,9 @@
-# I. Các bước để chạy source code
+# Final Project for Computer Graphic CS105.M21.KHCL
+---
 
-## Cách 1:
+## I. Các bước để chạy source code
+
+### Cách 1:
     1. Cài đặt Visual Studio Code
    Link: https://code.visualstudio.com/download
 
@@ -12,14 +15,14 @@
 
     4. Chờ cho thanh trạng thái (Status Bar) nằm ở dưới dùng màn hình load xong, click vào "Go Live" 
 
-## Cách 2:
+### Cách 2:
     Vào trực tiếp link: https://shenggkai.github.io/Final-Project-CS105/
 
 ---
-# II. Video demo
+## II. Video demo
     Link: 
 ---
-# III. Danh sách thành viên nhóm
+## III. Danh sách thành viên nhóm
     1. 19520271 - Hồ Bảo Quốc Thắng
     2. 19521338 - Nguyễn Quốc Đạt
     3. 20521363 - Lê Quang Hùng
