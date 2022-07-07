@@ -1,11 +1,11 @@
 // Find the latest version by visiting https://cdn.skypack.dev/three.
-import * as THREE from './js/three.module.js'
-import { OrbitControls } from './js/OrbitControls.js'
-import { TransformControls } from './js/TransformControls.js'
-import { GUI } from './js/dat.gui.module.js'
-import Stats from './js/stats.module.js'
-import { TGALoader } from './js/TGALoader.js';
-import { TeapotGeometry } from './js/TeapotGeometry.js';
+import * as THREE from './lib/three.module.js'
+import { OrbitControls } from './lib/OrbitControls.js'
+import { TransformControls } from './lib/TransformControls.js'
+import { GUI } from './lib/dat.gui.module.js'
+import Stats from './lib/stats.module.js'
+import { TGALoader } from './lib/TGALoader.js';
+import { TeapotGeometry } from './lib/TeapotGeometry.js';
 
 // globale variables
 let camera, scene, renderer
@@ -214,7 +214,7 @@ function initGUI() {
     let h = gui.addFolder('Common')
     h.add(settings.common, 'background', ['texture', 'color']).onChange(() => {
         if (settings.common.background === 'texture'){
-            var spaceTexture = textureLoader.load('./textures/skybox_front.jpg')
+            var spaceTexture = textureLoader.load('img/textures/skybox_front.jpg')
         }
         else if (settings.common.background === 'color'){
             var spaceTexture = new THREE.Color(settings.common.color)
@@ -295,7 +295,7 @@ function initGUI() {
             mesh = new THREE.Line(geometry, material);
         } else if (settings.geometry.material === 'texture') {
             scene.remove(mesh)
-            let texture = loader.load('./textures/pngtree-realistic-wood-plank-background-log-texture-background-image_417858.tga')
+            let texture = loader.load('img/textures/wood_texture.tga')
             material = new THREE.MeshBasicMaterial({ map: texture, side: THREE.DoubleSide })
             mesh = new THREE.Mesh(geometry, material)
         } else if (settings.geometry.material === 'wireframe') {
@@ -308,9 +308,9 @@ function initGUI() {
 
                 specular: 0x333333,
                 shininess: 15,
-                map: textureLoader.load("./textures/planets/download.jpg"),
-                specularMap: textureLoader.load("./textures/planets/SpecularMap.jpg"),
-                normalMap: textureLoader.load("./textures/planets/NormalMap.jpg"),
+                map: textureLoader.load("img/textures/planets/earth.jpg"),
+                specularMap: textureLoader.load("img/textures/planets/SpecularMap.jpg"),
+                normalMap: textureLoader.load("img/textures/planets/NormalMap.jpg"),
 
                 // y scale is negated to compensate for normal map handedness.
                 normalScale: new THREE.Vector2(0.85, - 0.85)
@@ -318,7 +318,7 @@ function initGUI() {
             mesh = new THREE.Mesh(geometry, material)
         } else if (settings.geometry.material === 'aluminum texture') {
             scene.remove(mesh)
-            var teaPot = textureLoader.load('./textures/aluminium.jpg')
+            var teaPot = textureLoader.load('img/textures/aluminium.jpg')
             material = new THREE.MeshBasicMaterial({map: teaPot, side: THREE.DoubleSide})
             mesh = new THREE.Mesh(geometry, material)
         }
