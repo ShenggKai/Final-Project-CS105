@@ -1,4 +1,4 @@
-# Final Project for Computer Graphic CS105.M21.KHCL
+# Đồ Án Cuối Kỳ - Đồ Họa Máy Tính CS105.M21.KHCL
 ---
 
 ## I. Các bước để chạy source code
