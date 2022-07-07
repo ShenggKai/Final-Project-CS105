@@ -1,17 +1,26 @@
-Các bước để chạy source code
+I. Các bước để chạy source code
 
-1.Cài đặt Visual Studio Code
+Cách 1:
+   1. Cài đặt Visual Studio Code
+   Link: https://code.visualstudio.com/download
 
-Link: https://code.visualstudio.com/download
+   2. Cài đặt Live Sever extension
+   Link: https://ritwickdey.github.io/vscode-live-server/
 
-2.Cài đặt Live Sever extension
+   3. Mở thư mục source code bằng Visual Studio Code
+   (Chọn File -> Open Folder -> chọn thư mục source code)
 
-3. Mở thư mục source-code bằng Visual Studio Code 
-(source-code được kèm sẵn trong file nộp
+   4. Chờ cho thanh trạng thái (Status Bar) nằm ở dưới dùng màn hình load xong, click vào "Go Live" 
 
-4. Chọn file index.html và nhấn “Go Live” ở phía dưới góc phải màn hình để chạy web
-   hoặc click chuột phải ở màn hình file index.html rồi chọn Open with Live Server
+Cách 2:
+   Vào trực tiếp link: https://shenggkai.github.io/Final-Project-CS105/
 
-Do video quá nặng không thể up lên course nên chúng em up lên google drive và có thể xem video demo ở link sau 
-https://drive.google.com/drive/folders/1FngiGTkFJ0IHYcZ4Dtdk3RnWEvyMR4zy?usp=sharing
-Nếu link trên không thể vào được có thể dùng link youtube sau để thay thế https://youtu.be/808TI-uiUpw
+
+II. Video demo
+   Link: 
+
+III. Danh sách thành viên nhóm
+   1. 19520271 - Hồ Bảo Quốc Thắng
+   2. 19521338 - Nguyễn Quốc Đạt
+   3. 20521363 - Lê Quang Hùng
+   4. 20522069 - Lê Phước Trung 
