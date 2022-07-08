@@ -168,6 +168,7 @@ function onWindowResize() {
     renderer.setSize(window.innerWidth, window.innerHeight)
     renderer.render(scene, camera)
 }
+
 function animate() {
     requestAnimationFrame(animate)
 
@@ -207,6 +208,7 @@ function animate() {
     stats.update()
     renderer.render(scene, camera)
 }
+
 function initGUI() {
     // gui  
     gui = new GUI()
@@ -254,8 +256,8 @@ function initGUI() {
             geometry = new THREE.CircleGeometry(3, 8);
         } else if (settings.geometry.shape === 'dodecahedron') {
             geometry = new THREE.DodecahedronGeometry(2, 1);
-        } else if (settings.geometry.shape === 'tetradedron') {
-            geometry = new THREE.TetrahedronGeometry(4, 0);
+        } else if (settings.geometry.shape === 'tetrahedron') {
+            geometry = new THREE.TetrahedronBufferGeometry(1, 0);
         } else if (settings.geometry.shape === 'octahedron') {
             geometry = new THREE.OctahedronGeometry(2, 1);
         } else if (settings.geometry.shape === 'cylinder') {
