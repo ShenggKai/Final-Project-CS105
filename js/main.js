@@ -245,7 +245,7 @@ function initGUI() {
         }
     })
 
-    g.add(settings.geometry, 'shape', ['cube', 'sphere','circle','icosahedron','tetrahedron','dodecahedron','octahedron', 'cone', 'cylinder', 'torus', 'torusknot', 'teapot']).onChange(() => {
+    g.add(settings.geometry, 'shape', ['cube', 'sphere', 'cone', 'cylinder', 'torus', 'teapot', 'icosahedron','tetrahedron','dodecahedron','octahedron', 'torusknot', 'circle']).onChange(() => {
         if (settings.geometry.shape === 'cube') {
             geometry = new THREE.BoxBufferGeometry(1, 1, 1)
         } else if (settings.geometry.shape === 'sphere') {
