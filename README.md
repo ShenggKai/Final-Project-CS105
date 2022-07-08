@@ -27,7 +27,8 @@
 
 ---
 ## II. Video demo
-- [Video on Youtube](https://www.youtube.com/watch?v=TTyDNCyoUeY)
+- [Video](
+https://drive.google.com/drive/folders/1Ocw1j3gNxCf8SHJUG0h_K-0rueHstoIr?usp=sharing)
 ---
 ## III. Danh sách thành viên nhóm
 - 19520271 - Hồ Bảo Quốc Thắng
