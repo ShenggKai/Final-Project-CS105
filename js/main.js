@@ -208,6 +208,7 @@ function animate() {
     stats.update()
     renderer.render(scene, camera)
 }
+
 function initGUI() {
     // gui  
     gui = new GUI()
