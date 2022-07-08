@@ -8,20 +8,20 @@
 
 - Bước 2: Cài đặt [Live Sever extension](https://ritwickdey.github.io/vscode-live-server/)
 
-- Bước 3: Mở thư mục source code bằng Visual Studio Code
+- Bước 3: Mở thư mục source code bằng `Visual Studio Code`
    (Chọn File -> Open Folder -> chọn thư mục source code)
 
-- Bước 4: Chờ cho thanh trạng thái (Status Bar) nằm ở dưới dùng màn hình load xong, click vào "Go Live" 
+- Bước 4: Chờ cho thanh trạng thái (Status Bar) nằm ở dưới dùng màn hình load xong, click vào "`Go Live`" 
 
 ### Cách 2:
-Vào trực tiếp link: https://shenggkai.github.io/Final-Project-CS105/
+Vào trực tiếp link: [https://shenggkai.github.io/Final-Project-CS105/](https://shenggkai.github.io/Final-Project-CS105/)
 
 ---
 ## II. Video demo
     Link: 
 ---
 ## III. Danh sách thành viên nhóm
-    1. 19520271 - Hồ Bảo Quốc Thắng
-    2. 19521338 - Nguyễn Quốc Đạt
-    3. 20521363 - Lê Quang Hùng
-    4. 20522069 - Lê Phước Trung 
+1. 19520271 - Hồ Bảo Quốc Thắng
+2. 19521338 - Nguyễn Quốc Đạt
+3. 20521363 - Lê Quang Hùng
+4. 20522069 - Lê Phước Trung 
