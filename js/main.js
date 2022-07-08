@@ -356,7 +356,7 @@ function initGUI() {
             afControls.setMode(settings.affine.mode)
             afControls.attach(mesh)
         }
-        mesh.position.set(0, 0.5, 0)
+
     })
 
     // light
