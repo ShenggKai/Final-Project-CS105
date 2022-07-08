@@ -18,16 +18,16 @@
 - Bước 4: Chờ cho thanh trạng thái (`Status Bar`) nằm ở dưới dùng màn hình load xong, click vào `Go Live` 
 
 <p align="center">
-<img src="img/vscode3.png" alt="Go live in VS Code">
+<img src="img/golive.png" alt="Go live in VS Code">
 </p>
 
 
 ### Cách 2:
-Vào trực tiếp [Link GitHub](https://shenggkai.github.io/Final-Project-CS105/)
+- Vào trực tiếp [Link GitHub](https://shenggkai.github.io/Final-Project-CS105/)
 
 ---
 ## II. Video demo
-    Link: 
+- [Video on Youtube](https://www.youtube.com/watch?v=TTyDNCyoUeY)
 ---
 ## III. Danh sách thành viên nhóm
 - 19520271 - Hồ Bảo Quốc Thắng
