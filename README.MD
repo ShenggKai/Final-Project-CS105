@@ -15,7 +15,7 @@
 <img src="img/menu.png" alt="Go live in VS Code" style="width:40%">
 </p>
 
-- Bước 4: Chờ cho thanh trạng thái (`Status Bar`) nằm ở dưới dùng màn hình load xong, click vào "`Go Live`" 
+- Bước 4: Chờ cho thanh trạng thái (`Status Bar`) nằm ở dưới dùng màn hình load xong, click vào `Go Live` 
 
 <p align="center">
 <img src="img/vscode3.png" alt="Go live in VS Code">
