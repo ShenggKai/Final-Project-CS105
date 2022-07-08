@@ -11,15 +11,15 @@
 - Bước 3: Mở thư mục source code bằng `Visual Studio Code`
    (Chọn File -> Open Folder -> chọn thư mục source code)
 
-<center>
+<p align="center">
 <img src="img/menu.png" alt="Go live in VS Code" style="width:40%">
-</center>
+</p>
 
 - Bước 4: Chờ cho thanh trạng thái (`Status Bar`) nằm ở dưới dùng màn hình load xong, click vào "`Go Live`" 
 
-<center>
+<p align="center">
 <img src="img/vscode3.png" alt="Go live in VS Code">
-</center>
+</p>
 
 
 ### Cách 2:
